@@ -1,6 +1,6 @@
 # FIWARE - Monitoring Non-Emergency Calls in Torino Smart City 
 
-This repository contains the proof of concept software prototype developed by the Torino unit in the FIWARE project. It consists of an informative dashboard and a notification system to support the offline analyses of the non-emergency calls made by citizens to the Local Police’s Contact Centre in Torino. 
+This repository contains the proof of concept software prototype developed by the Torino unit in the FIWARE project. It consists of an informative dashboard and a notification system to support the offline analyses of the non-emergency calls made by citizens to the Local Policeâ€™s Contact Centre in Torino. 
 
 The informative dashboard displays a set of example Key Performance Indicators (KPIs) aimed at providing information on the citizens' perception on urban security, while the notification system allows monitoring the variation over time of this perception. The considered non-emergency calls dataset is available as open data on Torino Municipality Data Portal (http://aperto.comune.torino.it) and it has been made available on FIWARE Lab. 
 
@@ -26,7 +26,7 @@ This repository contains the following main directories:
 Installation steps are provided within each directory
 
 ## License 
-Software in this repository is licensed under the Apache v2 license
+Software in this repository is licensed under the MIT license
 
 ## Contact 
 Politecnico di Torino: silvia.chiusano@polito.it 
