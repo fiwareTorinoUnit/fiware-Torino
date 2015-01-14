@@ -8,7 +8,7 @@ The interface allows selecting the KPI to be visualized (i.e., for a give catego
 
 ##Configuration
 
-1.	Set up SpagoBI and the informative dashboard as explained in [../informativedashboard](/informativedashboard)]
+1.	Set up SpagoBI and the informative dashboard as explained in [../informativedashboard](/informativedashboard)
 2.	If you have installed SpagoBI on a remote server, change the reference to it in the variable called spagoTarget, in [webinterface/js/utility.js](webinterface/js/utility.js#L89)
 
 ##Usage
