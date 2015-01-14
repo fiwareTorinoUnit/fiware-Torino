@@ -1,0 +1,27 @@
+The main fields of the tables for storing the dataset considered for the analysis are as follows:
+
+***Type of service request
+- Service Name: name (or subcategory) of the service request 
+- Group: category grouping several service request types 
+
+***Location of service request
+- Address, Area, District: address, city area and district of the service request
+- Green Area Indicator: to denote if the service request refers to a green area
+- Green Area Name: name of the green area 
+- Green Area Type: type of the green area (e.g., park)
+
+***Date of service request
+- Requested Date:  in the format YYYY-MM-DD 
+- Holiday Indicator: the day is classified as working or holiday 
+- Day of Week: e.g., Monday 
+- Month: e.g., 2012-1 to represent January 2012
+- Month of the Year: number between 1 and 12
+- Two-Month: e.g.,  2012-1 to represent the period January-February 2012
+- Two-Month of the Year: number between 1 and 6
+- Six-Month: e.g., 2012-1 to represent the period January-June 2012
+- Six-Month of the Year: number between 1 and 2
+- Year
+
+***Time of the service request
+- Requested Time: time of the service request, in the format HH:MM
+- Time Slot: e.g., morning, afternoon, evening, or night
