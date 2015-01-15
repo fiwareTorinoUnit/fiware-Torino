@@ -5,7 +5,9 @@ This directory contains the SQL scripts to create the schema of the tables for s
 
 The directory also includes the SQL scripts to feed the data warehouse tables starting from the staging area table, and to feed the materialized view starting from the data warehouse.
 
-Installation of mysql server 5.x 
+### Installation 
+
+Install mysql server 5.x 
 
 ### Usage
 

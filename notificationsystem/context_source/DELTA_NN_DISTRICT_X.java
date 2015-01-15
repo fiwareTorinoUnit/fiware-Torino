@@ -49,7 +49,7 @@ public class DELTA_NN_DISTRICT_X {
 			String output = new String();
 			// loads com.mysql.jdbc.Driver into memory
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/finale_project_torino", "javauser", "javadude") ;
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/Non_emergency_data_Torino_Unit", "javauser", "javadude") ;
 			System.out.println(".. doing Query");
 			Statement stmt = conn.createStatement();
 			String query_kpi = "select District, Area, ((count(*)-t2.n12)/t2.n12)*100 as delta from view_on_service_request as t1, (select Area as a12, count(*) as n12 from view_on_service_request where Six_Month = \"2013-1\" and Service_Name= \"Noise nuisance\" group by Area) as t2  where t1.Area = t2.a12 and Six_Month = \"2013-2\" and Service_Name = \"Noise nuisance\" and District="+this.x+" group by Area";
