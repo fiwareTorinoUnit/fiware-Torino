@@ -45,7 +45,7 @@
 				<h3 class="content-head is-center">Monitoring non-emergency calls in Torino Smart City</h3>
 				
 			</div>
-			<div class="pure-u-1 pure-u-md-1-4 is-center"><img alt="File Icons" height="50px" src="img/torino.jpg"></div>
+
 			<div class="pure-u-1 pure-u-md-1-8 is-center"><img alt="File Icons" height="50px" src="img/smartcity.jpg"></div>
 			
             <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
